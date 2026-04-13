@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5d1d74-a9ed-4d7f-9056-02f3cf2e8ab7" name="Changes" comment="Add comments detailing Java keywords and data types">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/01-introducao.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
       <workItem from="1776084983129" duration="101000" />
       <workItem from="1776085107232" duration="106000" />
       <workItem from="1776085234478" duration="163000" />
-      <workItem from="1776085418295" duration="1584000" />
+      <workItem from="1776085418295" duration="1902000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project configuration files and .gitignore">
       <option name="closed" value="true" />
@@ -101,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776086518473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add comments detailing Java keywords and data types">
+      <option name="closed" value="true" />
+      <created>1776087027601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776087027601</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
