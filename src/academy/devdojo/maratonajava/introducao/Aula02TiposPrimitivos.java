@@ -1,25 +1,23 @@
 package academy.devdojo.maratonajava.introducao;
 
 public class Aula02TiposPrimitivos {
-
     public static void main(String[] args) {
-        int age = 15;
-        long bigNumber = 2000;
-        double salaryDouble = 2000.0;
-        float salaryFloat = 2500.0f;
-        byte ageByte = -128;
-        short ageShort = 10;
+        // int, double, float, char, byte, short, long, boolean
+        int idade = (int) 10000000000L;
+        long numeroGrande = (long) 155.23;
+        double salarioDouble = 2000.0D;
+        float salarioFloat = (float) 2500.0D;
+        byte idadeByte = 127;
+        short idadeShort = 32000;
         boolean verdadeiro = true;
         boolean falso = false;
-        char character = 65;
+        char caractere = '\u0041';
+        String nome = "Goku";
 
-        String string = "Texto deve ser colocado dentro de aspas duplas em uma string";
-
-        System.out.println("A idade é "+age+" anos");
+        System.out.println("A idade é " + idade + " anos");
         System.out.println(falso);
-        System.out.println("char "+character);
-        System.out.println(age);
-        System.out.println(string+". Para concatenar com outra strin voce deve adicionar '+'.");
+        System.out.println("char " + caractere);
+        System.out.println(numeroGrande);
+        System.out.println("Oi meu nome é " + nome);
     }
-
 }
