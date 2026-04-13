@@ -16,7 +16,7 @@
 
   ![variaveispng.png](img/variaveis.png)
 
-  ![table_ASCII.png](img/table_ASCII.png)
+  ![tabela_ascii.jpg](img/tabela_ascii.jpg)
 
 ##### Variáveis**
 
