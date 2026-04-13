@@ -1,32 +1,31 @@
-# Compilados Java
-*.class
-
-# Logs
-*.log
-
-# Arquivos temporários
-*.tmp
-*.swp
-
-# IntelliJ IDEA
+### IntelliJ IDEA ###
 .idea/
 *.iml
 out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# Diretórios de build comuns
-target/
-build/
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Git ignore padrão já existente
-/shelf/
-/workspace.xml
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-# HTTP Client
-/httpRequests/
+### VS Code ###
+.vscode/
 
-# Queries
-/queries/
-
-# Datasources
-/dataSources/
-/dataSources.local.xml
+### Mac OS ###
+.DS_Store
