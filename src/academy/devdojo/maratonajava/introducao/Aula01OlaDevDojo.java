@@ -1,6 +1,19 @@
 package academy.devdojo.maratonajava.introducao;
 
+/**
+ *  Isso é um comentário <b>javadoc</b>
+ */
 public class Aula01OlaDevDojo {
+
+// Isso é um comentário de linha
+
+/*
+    Isso é um comentário
+    de multiplas linhas
+*/
+
+
+
     public static void main(String[] args){
         System.out.println("KA-ME-HA-ME-HAAA");
     }
@@ -31,14 +44,3 @@ Mode                 LastWriteTime         Length Name
 
 // Lebre-se: toda a vez que o você atualiza o arquivo, é necessário rodar o comando "javac ..."
 // novamente para atualizar o arquivo "*.class" (bytecode)
-
-
-
-// Isso é um comentário de linha
-
-
-
-/*
-    Isso é um comentário
-    de multiplas linhas
-*/
