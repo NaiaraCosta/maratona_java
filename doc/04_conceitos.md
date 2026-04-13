@@ -4,7 +4,7 @@
 
 ##### **Tipos primitivos: armazenam valores simples diretamente na memória**
 
-- byte – números inteiros pequenos (-128 a 127)
+- byte – números inteiros pequenos (-128 a 127 | 8 bits)
 - short – inteiros curtos (-32.768 a 32.767)
 - int – inteiros comuns
 - long – inteiros longos
