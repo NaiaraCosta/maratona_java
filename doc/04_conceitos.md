@@ -12,7 +12,9 @@
 - double – números decimais de dupla precisão
 - char – caracteres únicos (como 'A')
 - boolean – valores lógicos (true ou false)
-- Referência: armazenam endereços de objetos (como String, arrays e classes personalizadas).
+- Referência: armazenam endereços de objetos (como String, arrays e classes personalizadas)
+
+  ![variaveispng.png](img/variaveis.png)
 
 ##### **Variáveis**
 
@@ -45,9 +47,7 @@ int b = 5;
 
 **System.out.println(a >b); // true**
 
-
 ## **Principais Convenções de Nomenclatura de Pacotes**
-
 
 -Domínio Invertido: Inicie com com, org, edu, ou código de país (br, us),
 seguido pelo domínio da empresa/autor (ex: com.google, br.com.empresa).
