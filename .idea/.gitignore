@@ -1,0 +1,32 @@
+# Compilados Java
+*.class
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Diretórios de build comuns
+target/
+build/
+
+# Git ignore padrão já existente
+/shelf/
+/workspace.xml
+
+# HTTP Client
+/httpRequests/
+
+# Queries
+/queries/
+
+# Datasources
+/dataSources/
+/dataSources.local.xml
