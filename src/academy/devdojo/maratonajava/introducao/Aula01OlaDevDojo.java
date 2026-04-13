@@ -36,11 +36,13 @@ Mode                 LastWriteTime         Length Name
         -a---          13/04/2026    13:06            628 Aula01OlaDevDojo.java
 */
 
+
 //Rode o  comando: javac src\academy\devdojo\maratonajava\introducao\Aula01OlaDevDojo.java
 
 // Rode o comando: java -cp src academy.devdojo.maratonajava.introducao.Aula01OlaDevDojo
 
 
-
-// Lebre-se: toda a vez que o você atualiza o arquivo, é necessário rodar o comando "javac ..."
-// novamente para atualizar o arquivo "*.class" (bytecode)
+/*
+Lembre-se: toda a vez que o você atualiza o arquivo, é necessário rodar o comando "javac ..."
+novamente para atualizar o arquivo "*.class" (bytecode)
+*/
