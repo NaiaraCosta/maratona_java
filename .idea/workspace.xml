@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e5d1d74-a9ed-4d7f-9056-02f3cf2e8ab7" name="Changes" comment="Add comments detailing Java keywords and data types">
-      <change afterPath="$PROJECT_DIR$/doc/01-introducao.md" afterDir="false" />
+    <list default="true" id="8e5d1d74-a9ed-4d7f-9056-02f3cf2e8ab7" name="Changes" comment="Add introductory content about Java programming language">
+      <change afterPath="$PROJECT_DIR$/doc/01_introducao.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/02_palavras_reservadas.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/03_conceitos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/01-introducao.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/img/img.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +59,12 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/naiara.costa/IdeaProjects/maratona_java/doc",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -67,6 +73,14 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\naiara.costa\IdeaProjects\maratona_java\doc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\naiara.costa\IdeaProjects\maratona_java\doc\img" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8e5d1d74-a9ed-4d7f-9056-02f3cf2e8ab7" name="Changes" comment="" />
@@ -83,7 +97,8 @@
       <workItem from="1776084983129" duration="101000" />
       <workItem from="1776085107232" duration="106000" />
       <workItem from="1776085234478" duration="163000" />
-      <workItem from="1776085418295" duration="1902000" />
+      <workItem from="1776085418295" duration="2589000" />
+      <workItem from="1776088038444" duration="5387000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project configuration files and .gitignore">
       <option name="closed" value="true" />
@@ -109,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776087027601</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add introductory content about Java programming language">
+      <option name="closed" value="true" />
+      <created>1776087441195</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776087441195</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial project configuration files and .gitignore" />
     <MESSAGE value="Add comments detailing Java keywords and data types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add comments detailing Java keywords and data types" />
+    <MESSAGE value="Add introductory content about Java programming language" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add introductory content about Java programming language" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
