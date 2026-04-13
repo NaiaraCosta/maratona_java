@@ -16,8 +16,9 @@
 
   ![variaveispng.png](img/variaveis.png)
 
-
   ![tabela_ascii.png](img/tabela_ascii.png)
+
+  ![tabela_unicode.jpg](img/tabela_unicode.jpg)
 
 ##### **Variáveis**
 
