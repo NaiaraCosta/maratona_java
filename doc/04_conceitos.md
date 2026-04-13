@@ -16,9 +16,10 @@
 
   ![variaveispng.png](img/variaveis.png)
 
-  ![tabela_ascii.jpg](img/tabela_ascii.jpg)
 
-##### Variáveis**
+  ![tabela_ascii.png](img/tabela_ascii.png)
+
+##### **Variáveis**
 
 Uma variável é um espaço na memória para armazenar um valor.
 
