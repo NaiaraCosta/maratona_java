@@ -1,9 +1,16 @@
-package academy.devdojo.maratonajava.introducao;
+package academy.devdojo.maratonajava.introducao.aulas;
 
 /**
  * Isso é um comentário <b>javadoc</b>
  */
 public class Aula01OlaDevDojo {
+
+    public static void main(String[] args) {
+        System.out.println("KA-ME-HA-ME-HAAA");
+    }
+
+}
+
 
 // Isso é um comentário de linha
 
@@ -11,12 +18,6 @@ public class Aula01OlaDevDojo {
     Isso é um comentário
     de multiplas linhas
 */
-
-
-    public static void main(String[] args) {
-        System.out.println("KA-ME-HA-ME-HAAA");
-    }
-}
 
 /*
 Rode os  comandos:
@@ -38,7 +39,7 @@ Mode                 LastWriteTime         Length Name
 
 //Rode o  comando: javac src\academy\devdojo\maratonajava\introducao\Aula01OlaDevDojo.java
 
-// Rode o comando: java -cp src academy.devdojo.maratonajava.introducao.Aula01OlaDevDojo
+// Rode o comando: java -cp src academy.devdojo.maratonajava.introducao.aulas.Aula01OlaDevDojo
 
 
 /*

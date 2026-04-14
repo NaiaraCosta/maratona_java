@@ -22,26 +22,26 @@
 
 ##### **✍️ Edição inteligente**
 
-Ctrl + D → duplicar linha
-Ctrl + Y → deletar linha
-Ctrl + Alt + L → formatar código
-Ctrl + / → comentar linha
-Ctrl + Shift + / → comentar bloco
+* Ctrl + D → duplicar linha
+* Ctrl + Y → deletar linha
+* Ctrl + Alt + L → formatar código
+* Ctrl + / → comentar linha
+* Ctrl + Shift + / → comentar bloco
 
 ##### **⚡ Autocomplete e geração de código**
 
-Ctrl + Space → autocomplete básico
-Ctrl + Shift + Space → autocomplete inteligente
-Alt + Insert → gerar código (getter, setter, construtor)
-Ctrl + P → ver parâmetros do método
-Ctrl + Q → documentação rápida
+* Ctrl + Space → autocomplete básico
+* Ctrl + Shift + Space → autocomplete inteligente
+* Alt + Insert → gerar código (getter, setter, construtor)
+* Ctrl + P → ver parâmetros do método
+* Ctrl + Q → documentação rápida
 
 ##### **🧠 Refatoração (nível PRO)**
 
-Shift + F6 → renomear (seguro!)
-Ctrl + Alt + M → extrair método
-Ctrl + Alt + V → extrair variável
-Ctrl + Alt + C → extrair constante 👉 Esses aqui são MUITO usados em código limpo.
+* Shift + F6 → renomear (seguro!)
+* Ctrl + Alt + M → extrair método
+* Ctrl + Alt + V → extrair variável
+* Ctrl + Alt + C → extrair constante 👉 Esses aqui são MUITO usados em código limpo.
 
 ##### **▶️ Execução e debug**
 
