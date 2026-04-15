@@ -6,7 +6,7 @@ Prática: Crie variáveis para os campos descritos abaixo entre <> e imprima a s
 Eu, <nome>, morando no endereço <endereço>, confirmo que recebi o salário de <salario>, na data <data>
  */
 
-public class Aula02TiposPrimitivosExercicios {
+public class Aula01TiposPrimitivosExercicios {
 
     public static void main(String[] args) {
         String nome = "Kirito";
