@@ -58,6 +58,9 @@ ideal para atribuir valores com base em uma condição.
 
 **while**
 
+A condição é verificada antes de executar o bloco. 
+Se for falsa desde o início, o código pode não rodar nenhuma vez.
+
     // Imprimir a soma dos 100 primeiros números
     int count = 1;
     int soma = 0;
@@ -68,6 +71,8 @@ ideal para atribuir valores com base em uma condição.
     System.out.println(soma);
 
 **do-while**
+
+O bloco é executado pelo menos uma vez, porque a condição só é testada depois.
 
     int x = 5;
     do{

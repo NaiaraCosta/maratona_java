@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introducao.aulas;
 
-public class Aula03OperadoresAritimeticos {
+public class Aula03Operadores {
 
     public static void main(String[] args) {
         // + - / *
@@ -56,12 +56,31 @@ public class Aula03OperadoresAritimeticos {
         // ++ --
         int contador = 0;
         contador += 1; // contador = contador + 1;
+        System.out.println(++contador);
         contador++;
+        System.out.println(++contador);
         contador--;
+        System.out.println(++contador);
         ++contador;
+        System.out.println(++contador);
         --contador;
+        System.out.println(++contador);
+
+
         int contador2 = 0;
         System.out.println(++contador2);
+
+        int count1 = 5;
+        int x = ++count1;
+
+        System.out.println(x);      // 6
+        System.out.println(count1); // 6
+
+        int count2 = 5;
+        int x1 = count2++;
+
+        System.out.println(x1);     // 5
+        System.out.println(count2); // 6
     }
 
 }
