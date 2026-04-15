@@ -2,10 +2,11 @@ package academy.devdojo.maratonajava.introducao.aulas;
 
 public class Aula04EstruturasCondicionais {
 
+    // !  -> NEGAÇÃO
+
     public static void main(String[] args) {
         int idade = 15;
         boolean isAutorizadoComprarBebiba = idade >= 18;
-        // !
 
         if (isAutorizadoComprarBebiba) {
             System.out.println("Autorizado a comprar bebida alcólica");
