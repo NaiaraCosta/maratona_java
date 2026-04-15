@@ -11,17 +11,6 @@ public class Aula03EstruturasDeRepeticaoExercicios {
         }
 
 
-        // Imprima os primeiros 25 numeros de um dado valor. Por exemplo, 50
-        int valorMax = 50;
-        for (int i = 0; i <= valorMax; i++) {
-            if (i > 25) {
-                break;
-            }
-
-            System.out.println(i);
-        }
-
-
         // Dado o valor de um carro, descubra em quantas ele pode ser parcelado
         // Condição valorParcela >= 1000
         double valorTotal = 30000;
