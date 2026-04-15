@@ -18,7 +18,7 @@
 * Ctrl + F → buscar no arquivo
 * Ctrl + Shift + F → buscar no projeto inteiro
 * Ctrl + R → substituir no arquivo
-* Ctrl + Shift + R → substituir no projeto  👉 Esse aqui é MUITO usado em refatoração
+* Ctrl + Shift + R → substituir no projeto 👉 Esse aqui é MUITO usado em refatoração
 
 ##### **✍️ Edição inteligente**
 
@@ -58,7 +58,7 @@
 * Ctrl + Alt + Shift + J → selecionar todas ocorrências
 * Alt + Shift + ↑/↓ → mover linha
 
-##### **🧹 Organização** 
+##### **🧹 Organização**
 
 * Ctrl + Alt + O → otimizar imports
 * Ctrl + Alt + T → envolver código (if, try, etc.)

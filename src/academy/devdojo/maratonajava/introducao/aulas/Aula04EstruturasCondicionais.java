@@ -4,7 +4,7 @@ public class Aula04EstruturasCondicionais {
 
     // !  -> NEGAÇÃO
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int idade = 15;
         boolean isAutorizadoComprarBebiba = idade >= 18;
 
@@ -18,7 +18,7 @@ public class Aula04EstruturasCondicionais {
 
         boolean c = false;
 
-        if (c == true) {
+        if (c) {
             System.out.println("Dentro de algo que nunca deve ser feito");
         }
 

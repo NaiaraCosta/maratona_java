@@ -1,9 +1,12 @@
 # **Introdução**
 
-☕ Java é uma linguagem de programação de alto nível e orientada a objetos, amplamente utilizada para o desenvolvimento de aplicações multiplataforma — desde sistemas desktop e web até aplicativos Android.
+☕ Java é uma linguagem de programação de alto nível e orientada a objetos, amplamente utilizada para o desenvolvimento
+de aplicações multiplataforma — desde sistemas desktop e web até aplicativos Android.
 
-O código Java é compilado para um formato intermediário chamado bytecode, que não é executado diretamente pelo sistema operacional.
-Em vez disso, o bytecode é interpretado pela Java Virtual Machine (JVM), o que torna possível executar o mesmo programa em diferentes sistemas operacionais, como Windows, Linux e macOS.
+O código Java é compilado para um formato intermediário chamado bytecode, que não é executado diretamente pelo sistema
+operacional.
+Em vez disso, o bytecode é interpretado pela Java Virtual Machine (JVM), o que torna possível executar o mesmo programa
+em diferentes sistemas operacionais, como Windows, Linux e macOS.
 
 🔄 Processo de compilação:
 

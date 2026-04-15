@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.introducao.exercicios;
 
 public class Aula03EstruturasDeRepeticaoExercicios {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // Imprima todos os números pares de 0 até 1000000
         for (int i = 1; i <= 1000000; i++) {
             if (i % 2 == 0) {

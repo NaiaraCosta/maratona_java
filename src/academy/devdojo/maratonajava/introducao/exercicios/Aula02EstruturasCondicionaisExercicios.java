@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.introducao.exercicios;
 
 public class Aula02EstruturasCondicionaisExercicios {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         // Dado um determinado salário anual,
         // calcule o valor do imposto de renda a ser pago,

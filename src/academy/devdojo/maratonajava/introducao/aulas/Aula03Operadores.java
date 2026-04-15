@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.introducao.aulas;
 
 public class Aula03Operadores {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         // + - / *
         int numero01 = 10;
         // int numero02 = 20;

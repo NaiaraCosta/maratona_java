@@ -12,7 +12,7 @@ count++ (pós-incremento): primeiro usa o valor atual, depois incrementa.
 int count = 5;
 int x = count++;
 
-System.out.println(x);     // 5
+System.out.println(x); // 5
 System.out.println(count); // 6
 
 -----------------------------------
@@ -21,7 +21,7 @@ System.out.println(count); // 6
 int count = 5;
 int x = ++count;
 
-System.out.println(x);     // 6
+System.out.println(x); // 6
 System.out.println(count); // 6
 ----------------------------------------------------------------------------
 

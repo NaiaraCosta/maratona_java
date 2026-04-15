@@ -8,7 +8,7 @@ Eu, <nome>, morando no endereço <endereço>, confirmo que recebi o salário de 
 
 public class Aula01TiposPrimitivosExercicios {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         String nome = "Kirito";
         String endereco = "Av. Joao das galileias, 257";
         String dataRecebimentoSalario = "20/12/2021";

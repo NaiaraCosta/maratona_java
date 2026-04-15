@@ -6,7 +6,7 @@ ou explícito (manual, de maior para menor):
 **Widening Casting (Automático)**
 
 Converte um tipo menor para um tipo maior. Ocorre automaticamente.
-    
+
     byte -> short -> char -> int -> long -> float -> double
 
     Exemplos: int meuInt = 9; double meuDouble = meuInt
@@ -22,8 +22,8 @@ Deve ser feito manualmente colocando o tipo entre parênteses ().
     Exemplos: double -> double meuDouble = 9.78; int meuInt = (int) meuDouble
 
 **Casting de Objetos (Upcasting e Downcasting)**
-  
+
 Upcasting: Converter subclasse para superclasse (automático).
 
 Downcasting: Converter superclasse para subclasse (explícito/manual).
-             Risco de ClassCastException se a instância não for compatível.
+Risco de ClassCastException se a instância não for compatível.

@@ -1,8 +1,8 @@
 # **Estruturas de Controle**
 
-Estruturas de controle em hava são elementos que permitem alterar 
-o fluxo de execução do programa, como condicionais (if, else, 
-switch) e laços de repetição (for, while, do-while). 
+Estruturas de controle em hava são elementos que permitem alterar
+o fluxo de execução do programa, como condicionais (if, else,
+switch) e laços de repetição (for, while, do-while).
 Elas controlam decisões e repetições com base em condições.
 
 ##### **Condicionais**
@@ -37,7 +37,7 @@ Elas controlam decisões e repetições com base em condições.
 
 **Operador ternário**
 
-O operador ternário é uma forma compacta de substituir um if-else simples, 
+O operador ternário é uma forma compacta de substituir um if-else simples,
 ideal para atribuir valores com base em uma condição.
 
     // Sintaxe:
@@ -58,7 +58,7 @@ ideal para atribuir valores com base em uma condição.
 
 **while**
 
-A condição é verificada antes de executar o bloco. 
+A condição é verificada antes de executar o bloco.
 Se for falsa desde o início, o código pode não rodar nenhuma vez.
 
     // Imprimir a soma dos 100 primeiros números
