@@ -1,79 +1,128 @@
-# **Atalhos**
+# ⌨️ Atalhos — IntelliJ IDEA
 
-## 🚀 🔥 Atalhos essenciais (nível profissional)
+Os atalhos do **IntelliJ IDEA** são essenciais para aumentar sua **produtividade**, reduzir o uso do mouse e escrever código com mais eficiência.
 
-##### **🧭 Navegação (você vai usar o tempo todo)**
+💡 Dominar esses atalhos é um diferencial enorme no dia a dia.
 
-* Ctrl + B → ir para definição
-* Ctrl + Alt + B → ir para implementação
-* Ctrl + U → ir para superclasse/método pai
-* Ctrl + E → arquivos recentes
-* Ctrl + Shift + E → arquivos recentemente editados
-* Ctrl + N → buscar classe
-* Ctrl + Shift + N → buscar arquivo
-* Ctrl + Alt + Shift + N → buscar símbolo (qualquer coisa)
+---
 
-##### **🔎 Busca poderosa**
+## 🚀 🔥 Atalhos essenciais
 
-* Ctrl + F → buscar no arquivo
-* Ctrl + Shift + F → buscar no projeto inteiro
-* Ctrl + R → substituir no arquivo
-* Ctrl + Shift + R → substituir no projeto 👉 Esse aqui é MUITO usado em refatoração
+---
 
-##### **✍️ Edição inteligente**
+## 🧭 Navegação
 
-* Ctrl + D → duplicar linha
-* Ctrl + Y → deletar linha
-* Ctrl + Alt + L → formatar código
-* Ctrl + / → comentar linha
-* Ctrl + Shift + / → comentar bloco
+* `Ctrl + B` → ir para definição
+* `Ctrl + Alt + B` → ir para implementação
+* `Ctrl + U` → ir para superclasse/método pai
+* `Ctrl + E` → arquivos recentes
+* `Ctrl + Shift + E` → arquivos recentemente editados
+* `Ctrl + N` → buscar classe
+* `Ctrl + Shift + N` → buscar arquivo
+* `Ctrl + Alt + Shift + N` → buscar símbolo
 
-##### **⚡ Autocomplete e geração de código**
+---
 
-* Ctrl + Space → autocomplete básico
-* Ctrl + Shift + Space → autocomplete inteligente
-* Alt + Insert → gerar código (getter, setter, construtor)
-* Ctrl + P → ver parâmetros do método
-* Ctrl + Q → documentação rápida
+## 🔎 Busca
 
-##### **🧠 Refatoração (nível PRO)**
+* `Ctrl + F` → buscar no arquivo
+* `Ctrl + Shift + F` → buscar no projeto
+* `Ctrl + R` → substituir no arquivo
+* `Ctrl + Shift + R` → substituir no projeto
 
-* Shift + F6 → renomear (seguro!)
-* Ctrl + Alt + M → extrair método
-* Ctrl + Alt + V → extrair variável
-* Ctrl + Alt + C → extrair constante 👉 Esses aqui são MUITO usados em código limpo.
+💡 Muito usado em refatoração
 
-##### **▶️ Execução e debug**
+---
 
-* Shift + F10 → rodar
-* Shift + F9 → debug
-* Ctrl + Alt + Q → fechar aba de run/debug
-* F8 → step over
-* F7 → step into
-* Shift + F8 → step out
+## ✍️ Edição
 
-##### **🧩 Multi-cursor e produtividade**
+* `Ctrl + D` → duplicar linha
+* `Ctrl + Y` → deletar linha
+* `Ctrl + Alt + L` → formatar código
+* `Ctrl + /` → comentar linha
+* `Ctrl + Shift + /` → comentar bloco
 
-* Alt + J → selecionar próxima ocorrência
-* Ctrl + Alt + Shift + J → selecionar todas ocorrências
-* Alt + Shift + ↑/↓ → mover linha
+---
 
-##### **🧹 Organização**
+## ⚡ Autocomplete e geração
 
-* Ctrl + Alt + O → otimizar imports
-* Ctrl + Alt + T → envolver código (if, try, etc.)
+* `Ctrl + Space` → autocomplete básico
+* `Ctrl + Shift + Space` → autocomplete inteligente
+* `Alt + Insert` → gerar código (getter, setter, construtor)
+* `Ctrl + P` → ver parâmetros do método
+* `Ctrl + Q` → documentação rápida
 
-##### **🧠 Atalhos que diferenciam dev comum de dev rápido**
+---
 
-Se você quiser focar nos MAIS importantes mesmo, 👉 domina esses 10:
+## 🧠 Refatoração (nível PRO)
 
-* Ctrl + B
-* Ctrl + Shift + F
-* Shift + F6
-* Ctrl + Alt + L
-* Alt + Insert
-* Ctrl + D
-* Ctrl + Alt + M
-* Ctrl + E
-* Shift + F10
-* Ctrl + Space
+* `Shift + F6` → renomear com segurança
+* `Ctrl + Alt + M` → extrair método
+* `Ctrl + Alt + V` → extrair variável
+* `Ctrl + Alt + C` → extrair constante
+
+💡 Base para **Clean Code**
+
+---
+
+## ▶️ Execução e Debug
+
+* `Shift + F10` → executar
+* `Shift + F9` → debug
+* `Ctrl + Alt + Q` → fechar aba de execução
+* `F8` → step over
+* `F7` → step into
+* `Shift + F8` → step out
+
+---
+
+## 🧩 Multi-cursor e produtividade
+
+* `Alt + J` → selecionar próxima ocorrência
+* `Ctrl + Alt + Shift + J` → selecionar todas ocorrências
+* `Alt + Shift + ↑/↓` → mover linha
+
+---
+
+## 🧹 Organização
+
+* `Ctrl + Alt + O` → otimizar imports
+* `Ctrl + Alt + T` → envolver código (if, try, etc.)
+
+---
+
+## 🧠 Atalhos avançados (diferencial)
+
+* `Ctrl + Shift + A` → buscar qualquer ação (ATALHO MAIS PODEROSO)
+* `Alt + Enter` → sugestões rápidas (corrigir código automaticamente)
+* `Ctrl + W` → expandir seleção
+* `Ctrl + Shift + W` → reduzir seleção
+* `Ctrl + Alt + V` → criar variável automaticamente
+
+💡 Esses atalhos aceleram MUITO o fluxo de trabalho
+
+---
+
+## 🚀 Os 10 mais importantes
+
+Se quiser focar no essencial:
+
+* `Ctrl + B`
+* `Ctrl + Shift + F`
+* `Shift + F6`
+* `Ctrl + Alt + L`
+* `Alt + Enter`
+* `Ctrl + D`
+* `Ctrl + Alt + M`
+* `Ctrl + E`
+* `Shift + F10`
+* `Ctrl + Shift + A`
+
+---
+
+## 🚀 Resumo rápido
+
+* ⌨️ IntelliJ é altamente baseado em atalhos
+* ⚡ Menos mouse = mais produtividade
+* 🧠 Refatoração e autocomplete são diferenciais
+* 🔥 Dominar atalhos = programar muito mais rápido
