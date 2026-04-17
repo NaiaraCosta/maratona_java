@@ -1,33 +1,114 @@
-# **🔠 Palavras Reservadas**
+# 🔠 Palavras Reservadas (Keywords)
 
-🔠Termos pré-definidos com significados especiais para o compilador:
-totalizando cerca de 50+ palavras que não podem ser usadas como
-nomes de variáveis, métodos ou classes.
+As **palavras reservadas** são termos pré-definidos que possuem **significados especiais para o compilador Java**.
 
-🔠Estruturam o código: controlando fluxo, tipos de dados, modificadores de acesso
-e estruturas
+🚫 Elas **não podem ser usadas** como:
 
-**🔠 Principais Palavras Reservadas (Keywords)**
+* nomes de variáveis
+* nomes de métodos
+* nomes de classes
 
-Tipos de Dados/Primitivos: boolean, byte, char, double, float, int,
-long, short, void.
+💡 No total, o Java possui cerca de **50+ palavras reservadas**.
 
-Controle de Fluxo: if, else, switch, case, default, while, do, for,
-break, continue, return.
+---
 
-Modificadores de Acesso: public, private, protected.
+## 🧠 Para que servem?
 
-Modificadores (Classes/Métodos/Variáveis): static, final, abstract,
-synchronized, volatile, native, strictfp.
+As keywords são responsáveis por **estruturar o código**, controlando:
 
-Controle de Pacotes/Importação: import, package.
+* 🔄 Fluxo de execução
+* 📊 Tipos de dados
+* 🔐 Modificadores de acesso
+* 🧱 Estruturas da linguagem
 
-Tratamento de Exceções: try, catch, finally, throw, throws.
+---
 
-Relacionadas a Objetos/Classes: class, interface, enum, extends,
-implements, new, this, super, instanceof.
+## 📦 Principais Palavras Reservadas
 
-Outros/Contextuais: var (inferência de tipo), record (Java 14+),
-sealed, permits (Java 15+), module.
+### 🔢 Tipos de dados (primitivos)
 
-Reservadas (Não Utilizadas): goto, const.
+```
+boolean, byte, char, double, float, int, long, short, void
+```
+
+---
+
+### 🔄 Controle de fluxo
+
+```
+if, else, switch, case, default,
+while, do, for,
+break, continue, return
+```
+
+---
+
+### 🔐 Modificadores de acesso
+
+```
+public, private, protected
+```
+
+---
+
+### ⚙️ Modificadores (classes, métodos e variáveis)
+
+```
+static, final, abstract, synchronized,
+volatile, native, strictfp
+```
+
+---
+
+### 📦 Pacotes e importação
+
+```
+package, import
+```
+
+---
+
+### 🚨 Tratamento de exceções
+
+```
+try, catch, finally, throw, throws
+```
+
+---
+
+### 🧱 Orientação a objetos
+
+```
+class, interface, enum,
+extends, implements,
+new, this, super, instanceof
+```
+
+---
+
+### 🆕 Recursos mais recentes (Java moderno)
+
+```
+var, record, sealed, permits, module
+```
+
+💡 Algumas dessas keywords foram adicionadas em versões mais recentes do Java (Java 10+).
+
+---
+
+### 🚫 Reservadas (não utilizadas)
+
+```
+goto, const
+```
+
+> ⚠️ Existem na linguagem, mas **não são usadas na prática**
+
+---
+
+## 🚀 Resumo rápido
+
+* 🔠 Keywords são **palavras com significado especial no Java**
+* 🚫 Não podem ser reutilizadas como identificadores
+* 🧠 Controlam a estrutura e funcionamento do código
+* 📦 Dividem-se em categorias como fluxo, tipos e modificadores

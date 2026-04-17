@@ -1,47 +1,99 @@
-# **🎲 Tipos de Dados**
+# 🎲 Tipos de Dados
 
-##### **Tipos primitivos**
+Os tipos de dados em Java definem **quais valores podem ser armazenados** e **como eles são manipulados na memória**.
 
-Armazenam valores simples diretamente na memória:
+---
 
-- byte – números inteiros pequenos (-128 a 127)
-- short – inteiros curtos (-32.768 a 32.767)
-- int – inteiros comuns
-- long – inteiros longos
-- float – números decimais de precisão simples
-- double – números decimais de dupla precisão
-- char – caracteres únicos (como 'A')
-- boolean – valores lógicos (true ou false)
-- Referência: armazenam endereços de objetos (como String, arrays e classes personalizadas)
+## 🔢 Tipos primitivos
 
-  ![variaveispng.png](img/variaveis.png)
+Os tipos primitivos armazenam **valores simples diretamente na memória**.
 
-  ![tabela_ascii.png](img/tabela_ascii.png)
+### 📦 Lista de tipos
 
-  ![tabela_unicode.jpg](img/tabela_unicode.jpg)
+```
+byte    → inteiros pequenos (-128 a 127)
+short   → inteiros curtos (-32.768 a 32.767)
+int     → inteiros comuns
+long    → inteiros longos
 
-##### **🔠 String**
+float   → números decimais (precisão simples)
+double  → números decimais (precisão dupla)
 
-Representa uma sequência de caracteres (texto).
+char    → um único caractere ('A')
+boolean → valores lógicos (true ou false)
+```
 
-É tratada como um objeto, não um tipo primitivo.
+---
 
-Pertencente ao pacote java.lang.
+## 🧠 Tipos de referência
 
-Ela é caracterizada pela imutabilidade: não pode ser alterada após a criação.
-
-É amplamente usada para manipulação de textos, permitindo criar instâncias
-por literais ("texto") ou pelo construtor new String().
-
-##### **Variáveis**
-
-Uma variável é um espaço na memória para armazenar um valor.
-
-A sintaxe básica é: tipo nomeDaVariavel = valor;
+Diferente dos primitivos, os tipos de referência armazenam **endereços de memória** que apontam para objetos.
 
 Exemplos:
 
-- int idade = 25;
-- double salario = 3500.50;
-- boolean ativo = true;
-- String nome = "João";
+* 🔠 `String`
+* 📚 Arrays
+* 🧱 Classes personalizadas
+
+---
+
+## 🔠 String
+
+A `String` representa uma **sequência de caracteres (texto)**.
+
+💡 Apesar de muito usada, **não é um tipo primitivo**, e sim um objeto.
+
+### 📌 Características
+
+* 📦 Pertence ao pacote `java.lang`
+* 🔒 **Imutável** → não pode ser alterada após a criação
+* 🧠 Amplamente utilizada para manipulação de texto
+
+### ✍️ Formas de criação
+
+```
+String nome = "João";
+String nome2 = new String("João");
+```
+
+---
+
+## 📊 Representação visual
+
+![Variáveis](img/variaveis.png)
+
+![Tabela ASCII](img/tabela_ascii.png)
+
+![Tabela Unicode](img/tabela_unicode.jpg)
+
+---
+
+## 🧪 Variáveis
+
+Uma variável é um espaço na memória utilizado para **armazenar um valor**.
+
+### 📌 Sintaxe básica
+
+```
+tipo nomeDaVariavel = valor;
+```
+
+---
+
+### 💻 Exemplos
+
+```
+int idade = 25;
+double salario = 3500.50;
+boolean ativo = true;
+String nome = "João";
+```
+
+---
+
+## 🚀 Resumo rápido
+
+* 🔢 Tipos primitivos armazenam valores diretos
+* 🧠 Tipos de referência armazenam endereços de objetos
+* 🔠 `String` é um objeto imutável muito utilizado
+* 📦 Variáveis guardam valores na memória
