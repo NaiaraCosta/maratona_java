@@ -10,94 +10,94 @@ Os atalhos do **IntelliJ IDEA** são essenciais para aumentar sua **produtividad
 
 ---
 
-## 🧭 Navegação
+### 🧭 Navegação
 
-* `Ctrl + B` → ir para definição
-* `Ctrl + Alt + B` → ir para implementação
-* `Ctrl + U` → ir para superclasse/método pai
-* `Ctrl + E` → arquivos recentes
-* `Ctrl + Shift + E` → arquivos recentemente editados
-* `Ctrl + N` → buscar classe
-* `Ctrl + Shift + N` → buscar arquivo
-* `Ctrl + Alt + Shift + N` → buscar símbolo
+* `Ctrl + B` → Ir para definição
+* `Ctrl + Alt + B` → Ir para implementação
+* `Ctrl + U` → Ir para superclasse/método pai
+* `Ctrl + E` → Arquivos recentes
+* `Ctrl + Shift + E` → Arquivos recentemente editados
+* `Ctrl + N` → Buscar classe
+* `Ctrl + Shift + N` → Buscar arquivo
+* `Ctrl + Alt + Shift + N` → Buscar símbolo
 
 ---
 
-## 🔎 Busca
+### 🔎 Busca
 
-* `Ctrl + F` → buscar no arquivo
-* `Ctrl + Shift + F` → buscar no projeto
-* `Ctrl + R` → substituir no arquivo
-* `Ctrl + Shift + R` → substituir no projeto
+* `Ctrl + F` → Buscar no arquivo
+* `Ctrl + Shift + F` → Buscar no projeto
+* `Ctrl + R` → Substituir no arquivo
+* `Ctrl + Shift + R` → Substituir no projeto
 
 💡 Muito usado em refatoração
 
 ---
 
-## ✍️ Edição
+### ✍️ Edição
 
-* `Ctrl + D` → duplicar linha
-* `Ctrl + Y` → deletar linha
-* `Ctrl + Alt + L` → formatar código
-* `Ctrl + /` → comentar linha
-* `Ctrl + Shift + /` → comentar bloco
-
----
-
-## ⚡ Autocomplete e geração
-
-* `Ctrl + Space` → autocomplete básico
-* `Ctrl + Shift + Space` → autocomplete inteligente
-* `Alt + Insert` → gerar código (getter, setter, construtor)
-* `Ctrl + P` → ver parâmetros do método
-* `Ctrl + Q` → documentação rápida
+* `Ctrl + D` → Duplicar linha
+* `Ctrl + Y` → Deletar linha
+* `Ctrl + Alt + L` → Formatar código
+* `Ctrl + /` → Comentar linha
+* `Ctrl + Shift + /` → Comentar bloco
 
 ---
 
-## 🧠 Refatoração (nível PRO)
+### ⚡ Autocomplete e geração
 
-* `Shift + F6` → renomear com segurança
-* `Ctrl + Alt + M` → extrair método
-* `Ctrl + Alt + V` → extrair variável
-* `Ctrl + Alt + C` → extrair constante
+* `Ctrl + Space` → Autocomplete básico
+* `Ctrl + Shift + Space` → Autocomplete inteligente
+* `Alt + Insert` → Gerar código (getter, setter, construtor)
+* `Ctrl + P` → Ver parâmetros do método
+* `Ctrl + Q` → Documentação rápida
+
+---
+
+### 🧠 Refatoração (nível PRO)
+
+* `Shift + F6` → Renomear com segurança
+* `Ctrl + Alt + M` → Extrair método
+* `Ctrl + Alt + V` → Extrair variável
+* `Ctrl + Alt + C` → Extrair constante
 
 💡 Base para **Clean Code**
 
 ---
 
-## ▶️ Execução e Debug
+### ▶️ Execução e Debug
 
-* `Shift + F10` → executar
-* `Shift + F9` → debug
-* `Ctrl + Alt + Q` → fechar aba de execução
-* `F8` → step over
-* `F7` → step into
-* `Shift + F8` → step out
-
----
-
-## 🧩 Multi-cursor e produtividade
-
-* `Alt + J` → selecionar próxima ocorrência
-* `Ctrl + Alt + Shift + J` → selecionar todas ocorrências
-* `Alt + Shift + ↑/↓` → mover linha
+* `Shift + F10` → Executar
+* `Shift + F9` → Debug
+* `Ctrl + Alt + Q` → Fechar aba de execução
+* `F8` → Step over
+* `F7` → Step into
+* `Shift + F8` → Step out
 
 ---
 
-## 🧹 Organização
+### 🧩 Multi-cursor e produtividade
 
-* `Ctrl + Alt + O` → otimizar imports
-* `Ctrl + Alt + T` → envolver código (if, try, etc.)
+* `Alt + J` → Selecionar próxima ocorrência
+* `Ctrl + Alt + Shift + J` → Selecionar todas ocorrências
+* `Alt + Shift + ↑/↓` → Mover linha
 
 ---
 
-## 🧠 Atalhos avançados (diferencial)
+### 🧹 Organização
 
-* `Ctrl + Shift + A` → buscar qualquer ação (ATALHO MAIS PODEROSO)
-* `Alt + Enter` → sugestões rápidas (corrigir código automaticamente)
-* `Ctrl + W` → expandir seleção
-* `Ctrl + Shift + W` → reduzir seleção
-* `Ctrl + Alt + V` → criar variável automaticamente
+* `Ctrl + Alt + O` → Otimizar imports
+* `Ctrl + Alt + T` → Envolver código (if, try, etc.)
+
+---
+
+### 🧠 Atalhos avançados (diferencial)
+
+* `Ctrl + Shift + A` → Buscar qualquer ação (atalho mais poderoso)
+* `Alt + Enter` → Sugestões rápidas (corrigir código automaticamente)
+* `Ctrl + W` → Expandir seleção
+* `Ctrl + Shift + W` → Reduzir seleção
+* `Ctrl + Alt + V` → Criar variável automaticamente
 
 💡 Esses atalhos aceleram MUITO o fluxo de trabalho
 
@@ -126,3 +126,5 @@ Se quiser focar no essencial:
 * ⚡ Menos mouse = mais produtividade
 * 🧠 Refatoração e autocomplete são diferenciais
 * 🔥 Dominar atalhos = programar muito mais rápido
+
+---
