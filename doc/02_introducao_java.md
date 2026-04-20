@@ -49,7 +49,10 @@ O IntelliJ IDEA é uma das IDEs mais utilizadas para Java.
 
 👉 Para estudos, a Community é suficiente.
 
-⚙️ Configuração inicial
+---
+
+### ⚙️ Configuração inicial
+
 Após instalar:
 
 * Selecionar JDK instalado
@@ -58,7 +61,7 @@ Após instalar:
 
 ---
 
-📌 Plugins úteis:
+### 📌 Plugins úteis:
 
 * Presentation Assistant (mostra atalhos na tela)
 

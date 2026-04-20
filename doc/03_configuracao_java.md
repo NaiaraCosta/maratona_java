@@ -45,8 +45,6 @@ Exemplo:
 
     C:\Program Files\Java\jdk-XX
 
----
-
 ### Por que isso é necessário?
 
 Outras ferramentas utilizam essa variável automaticamente para localizar o Java instalado:
@@ -69,17 +67,13 @@ Exemplos de comandos:
 * `java`
 * `javac`
 
----
-
-## Estrutura correta do PATH
+### Estrutura correta do PATH
 
 Deve conter:
 
     %JAVA_HOME%\bin
 
 📌 Isso garante que o sistema encontre os executáveis do Java automaticamente.
-
----
 
 ### 📌 O que isso permite:
 
@@ -89,13 +83,13 @@ Deve conter:
 
 ---
 
-### ⚠️ Erros comuns de configuração
+## ⚠️ Erros comuns de configuração
 
 ❌ Adicionar `\bin` dentro do JAVA_HOME  
 ❌ Duplicar caminhos no PATH  
 ❌ Configurar caminhos inconsistentes
 
-Exemplo de erro:
+#### 📌 Exemplo de erro:
 
 ```bash
     JAVA_HOME = C:\Program Files\Java\jdk-XX\bin  👉 Isso quebra a resolução do caminho e impede o funcionamento correto do Java.
@@ -125,7 +119,9 @@ Adicione a seguinte entrada:
 * Feche o terminal (CMD / PowerShell)
 * Abra novamente para aplicar as variáveis
 
-🚀 Teste da configuração
+---
+
+### 🚀 Teste da configuração
 
 Execute no terminal:
 

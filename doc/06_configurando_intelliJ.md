@@ -185,8 +185,8 @@ A IDE automaticamente:
 
 ## 📦 Build vs Run
 
-*   Build → apenas compila o projeto
-*   Run → compila e executa
+*   *Buil* → apenas compila o projeto
+*   *Run* → compila e executa
 
 A saída do build vai para:
 

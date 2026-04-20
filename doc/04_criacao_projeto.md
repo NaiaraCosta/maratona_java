@@ -37,7 +37,9 @@ Passos:
 * Nome do projeto: Maratona Java
 * Finalizar criação
 
-📌 JAVA_HOME
+---
+
+### 📌 JAVA_HOME
 
 A IDE utiliza a variável:
 
@@ -55,11 +57,11 @@ Para criar uma classe:
 * New → Java Class
 * Nome da classe
 
-📌 Regra importante:
+### 📌 Regra importante:
 
 O nome da classe deve ser igual ao nome do arquivo.
 
-## 🚀 Exemplo de classe
+### 🚀 Exemplo de classe
 
 ```java
     public class OlaDevDojo {

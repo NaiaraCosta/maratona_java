@@ -172,11 +172,11 @@ Quando o *continue* é alcançado:
 ## 🧠 Conceitos finais
 
 * Estruturas de repetição evitam código duplicado
-* `while` testa a condição antes
-* `do while` executa ao menos uma vez
-* `for` é ideal para contagens
-* `break` encerra loops prematuramente
-* `continue` ignora apenas a iteração atual
+* *while* testa a condição antes
+* *do while* executa ao menos uma vez
+* *for* é ideal para contagens
+* *break* encerra loops prematuramente
+* *continue* ignora apenas a iteração atual
 * Controle de fluxo melhora performance e legibilidade
 
 ---
@@ -186,7 +186,7 @@ Quando o *continue* é alcançado:
 * Repetições são fundamentais na programação
 * Laços permitem automatizar tarefas repetitivas
 * Variáveis de controle evitam loops infinitos
-* `break` e `continue` refinam o fluxo de execução
+* *break* e *ontinue* refinam o fluxo de execução
 * Código bem controlado é mais eficiente e limpo
 * Entender o comportamento do loop evita bugs críticos
 

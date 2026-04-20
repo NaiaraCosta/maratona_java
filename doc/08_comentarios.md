@@ -22,10 +22,11 @@ Existem três tipos principais:
 
 Comentários são instruções ignoradas pelo compilador e não fazem parte do bytecode final.
 
-📌 Ou seja:
-    Eles não afetam a execução do programa.
+📌 Ou seja: 
+Eles não afetam a execução do programa.
 
 São usados para:
+
 * Explicar trechos de código
 * Documentar decisões técnicas
 * Gerar documentação oficial (JavaDoc)
@@ -108,7 +109,6 @@ No IntelliJ IDEA:
 * Ctrl + Q → mostra documentação do método
 * Ctrl + Click → navega para implementação
 
-
 ### ⚙️ Por que o JavaDoc é importante
 
 O JavaDoc é usado para:
@@ -118,7 +118,8 @@ O JavaDoc é usado para:
 * Permitir entendimento do código sem leitura interna
 * Padronizar documentação em equipes
 
-📌 Exemplo real: classes da própria API do Java usam JavaDoc extensivamente.
+📌 Exemplo real: 
+classes da própria API do Java usam JavaDoc extensivamente.
 
 ---
 
@@ -143,7 +144,7 @@ A prática moderna de desenvolvimento (Clean Code) recomenda:
 
 *Código deve ser autoexplicativo.*
 
-📌 Ou seja:
+📌 Ou seja: 
 Se você precisa comentar tudo, o código provavelmente está mal escrito.
 
 ---

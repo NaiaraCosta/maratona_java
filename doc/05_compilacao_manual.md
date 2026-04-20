@@ -30,7 +30,7 @@ O comando:
 * Gera arquivo .class
 * Não executa o programa
 
-📌 Resultado:
+### 📌 Resultado:
 
 Arquivo compilado .class
 
@@ -50,7 +50,7 @@ O comando:
 * Utiliza a JVM
 * Não usa extensão .class
 
-📌 Importante:
+### 📌 Importante:
 
 Nunca executar com extensão:
 
@@ -58,9 +58,9 @@ Nunca executar com extensão:
     java NomeDaClasse.class
 ```
 
-### 📁 Fluxo completo de execução
+## 📁 Fluxo completo de execução
 
-#### 1\. Código fonte
+### 1\. Código fonte
 
 ```java
     public class OlaDevDojo {    
@@ -70,13 +70,13 @@ Nunca executar com extensão:
     }
 ```
 
-#### 2\. Compilação
+### 2\. Compilação
 
 ```bash    
   javac OlaDevDojo.java  
 ```
 
-#### 3\. Execução
+### 3\. Execução
 
 ```bash
     java OlaDevDojo
@@ -84,7 +84,7 @@ Nunca executar com extensão:
 
 ---
 
-### ⚠️ Erros comuns
+## ⚠️ Erros comuns
 
 ### ❌ Nome da classe diferente do arquivo
 

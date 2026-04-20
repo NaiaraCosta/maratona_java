@@ -30,7 +30,7 @@ Atalhos importantes:
 
 No IntelliJ, para criar rapidamente o método `main`, basta digitar `psvm` e pressionar `Tab`. Isso gera automaticamente a estrutura básica do método principal:
 
-    `psvm + Tab`
+    psvm + Tab
 
 Gera automaticamente:
 
@@ -89,7 +89,7 @@ Por padrão:
 * Números inteiros → int
 * Números decimais → double
 
-🔧 Solução: sufixos
+###  🔧 Solução: sufixos
 
 ```java
     float salario = 2500.50f;
@@ -97,7 +97,7 @@ Por padrão:
     double valor = 10.5d;
 ```
 
-## ⚠️ Regras importantes
+### ⚠️ Regras importantes
 
 * `f` → Float
 * `l` → Long
