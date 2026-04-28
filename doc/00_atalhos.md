@@ -8,8 +8,6 @@ Os atalhos do **IntelliJ IDEA** são essenciais para aumentar sua **produtividad
 
 ## 🚀 🔥 Atalhos essenciais
 
----
-
 ### 🧭 Navegação
 
 * `Ctrl + B` → Ir para definição
@@ -21,18 +19,13 @@ Os atalhos do **IntelliJ IDEA** são essenciais para aumentar sua **produtividad
 * `Ctrl + Shift + N` → Buscar arquivo
 * `Ctrl + Alt + Shift + N` → Buscar símbolo
 
----
-
 ### 🔎 Busca
 
 * `Ctrl + F` → Buscar no arquivo
 * `Ctrl + Shift + F` → Buscar no projeto
 * `Ctrl + R` → Substituir no arquivo
 * `Ctrl + Shift + R` → Substituir no projeto
-
-💡 Muito usado em refatoração
-
----
+   Muito usado em refatoração
 
 ### ✍️ Edição
 
@@ -42,8 +35,6 @@ Os atalhos do **IntelliJ IDEA** são essenciais para aumentar sua **produtividad
 * `Ctrl + /` → Comentar linha
 * `Ctrl + Shift + /` → Comentar bloco
 
----
-
 ### ⚡ Autocomplete e geração
 
 * `Ctrl + Space` → Autocomplete básico
@@ -52,18 +43,13 @@ Os atalhos do **IntelliJ IDEA** são essenciais para aumentar sua **produtividad
 * `Ctrl + P` → Ver parâmetros do método
 * `Ctrl + Q` → Documentação rápida
 
----
-
 ### 🧠 Refatoração (nível PRO)
 
 * `Shift + F6` → Renomear com segurança
 * `Ctrl + Alt + M` → Extrair método
 * `Ctrl + Alt + V` → Extrair variável
 * `Ctrl + Alt + C` → Extrair constante
-
 💡 Base para **Clean Code**
-
----
 
 ### ▶️ Execução e Debug
 
@@ -74,15 +60,11 @@ Os atalhos do **IntelliJ IDEA** são essenciais para aumentar sua **produtividad
 * `F7` → Step into
 * `Shift + F8` → Step out
 
----
-
 ### 🧩 Multi-cursor e produtividade
 
 * `Alt + J` → Selecionar próxima ocorrência
 * `Ctrl + Alt + Shift + J` → Selecionar todas ocorrências
 * `Alt + Shift + ↑/↓` → Mover linha
-
----
 
 ### 🧹 Organização
 
@@ -91,14 +73,13 @@ Os atalhos do **IntelliJ IDEA** são essenciais para aumentar sua **produtividad
 
 ---
 
-### 🧠 Atalhos avançados (diferencial)
+## 🧠 Atalhos avançados (diferencial)
 
 * `Ctrl + Shift + A` → Buscar qualquer ação (atalho mais poderoso)
 * `Alt + Enter` → Sugestões rápidas (corrigir código automaticamente)
 * `Ctrl + W` → Expandir seleção
 * `Ctrl + Shift + W` → Reduzir seleção
 * `Ctrl + Alt + V` → Criar variável automaticamente
-
 💡 Esses atalhos aceleram MUITO o fluxo de trabalho
 
 ---
@@ -117,14 +98,5 @@ Se quiser focar no essencial:
 * `Ctrl + E`
 * `Shift + F10`
 * `Ctrl + Shift + A`
-
----
-
-## 🚀 Resumo rápido
-
-* ⌨️ IntelliJ é altamente baseado em atalhos
-* ⚡ Menos mouse = mais produtividade
-* 🧠 Refatoração e autocomplete são diferenciais
-* 🔥 Dominar atalhos = programar muito mais rápido
 
 ---

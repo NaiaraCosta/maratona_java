@@ -83,9 +83,7 @@ Se precisar renomear:
 * Selecione **Refactor → Rename**
 * Atalho: `Shift + F6`
 
----
-
-## 📦 Estrutura gerada
+### 📦 Estrutura gerada
 
 Após criar o pacote:
 
@@ -94,9 +92,7 @@ Após criar o pacote:
     
 E o IntelliJ organiza automaticamente as classes dentro dele.
 
----
-
-## ☕ Movendo Classes para Pacotes
+### ☕ Movendo Classes para Pacotes
 
 Você pode mover uma classe existente para um pacote:
 

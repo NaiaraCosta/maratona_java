@@ -39,7 +39,7 @@ Passos:
 
 ---
 
-### 📌 JAVA_HOME
+## 📌 JAVA_HOME
 
 A IDE utiliza a variável:
 

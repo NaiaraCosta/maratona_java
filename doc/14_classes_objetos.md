@@ -79,13 +79,13 @@ A variável de referência funciona como um “controle remoto” para acessar o
 Quando um objeto é criado, seus atributos recebem valores padrão automaticamente.
 
 
-| Tipo             | Valor padrão |
-| ---------------- | ------------- |
-| int              | 0             |
-| float/double     | 0.0           |
-| char             | '\u0000' (vazio)              |
-| boolean          | false              |
-| String / objetos | null              |
+| Tipo             | Valor padrão     |
+|------------------|------------------|
+| int              | 0                |
+| float/double     | 0.0              |
+| char             | '\u0000' (vazio) |
+| boolean          | false            |
+| String / objetos | null             |
 
 #### 📌 Exemplo
 

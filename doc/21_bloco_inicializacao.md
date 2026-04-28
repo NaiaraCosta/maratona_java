@@ -1,114 +1,263 @@
-# 📘 Guia — Blocos de Inicialização em Java
+# 📘 Guia — Inicialização e Modificadores static em Java
 
-Este guia apresenta o conceito de **blocos de inicialização em Java**, explicando como eles funcionam na criação de objetos, sua ordem de execução e como ajudam a evitar duplicação de código entre construtores.
+Este guia apresenta de forma completa os conceitos de **blocos de inicialização**, **atributos estáticos** e **métodos estáticos** em Java, explicando comportamento, ordem de execução e boas práticas.
 
 ---
 
 ## 🧠 Resumo
 
-Blocos de inicialização são trechos de código executados automaticamente **sempre que um objeto é criado**, independentemente do construtor utilizado.
-
-Características principais:
-
-* Executados antes do construtor
-* Executados toda vez que uma instância é criada
-* Usados para inicialização comum entre construtores
-* Evitam duplicação de código
+* Blocos de inicialização executam automaticamente na criação de objetos
+* Blocos estáticos executam apenas uma vez no carregamento da classe
+* Atributos `static` pertencem à classe, não ao objeto
+* Métodos `static` não dependem de instância
+* `this` não pode ser usado em contexto estático
+* `static` é ideal para dados e comportamentos globais
 
 ---
 
-## 🧩 O que são blocos de inicialização
+## 🧩 Blocos de inicialização (instância)
 
-Blocos de inicialização são blocos de código definidos dentro da classe, sem nome e sem retorno, que são executados automaticamente ao criar um objeto.
+Blocos de inicialização são executados automaticamente **sempre que um objeto é criado**.
 
-Exemplo:
-
-```java
-    {
-        System.out.println("inicialização executada");
-    }
-```
-
-Eles são executados **antes de qualquer construtor**.
-
-### ⚙️ Problema sem blocos de inicialização
-
-Sem blocos de inicialização, a lógica de inicialização precisa ser repetida em todos os construtores.
-
-Exemplo de problema:
-
-* Inicializar arrays manualmente em cada construtor
-* Duplicação de lógica
-* Maior risco de inconsistência entre construtores
-
-### 🧱 Exemplo com array de episódios
-
-Uma classe pode ter um array inicializado com valores padrão:
-
-```java
-    int[] episodios = new int[10];
-```
-
-Ou preenchido manualmente:
-
-```java
-    for (int i = 0; i < episodios.length; i++) {
-        episodios[i] = i + 1;
-    }
-```
-
-Sem blocos de inicialização, esse código precisaria ser repetido em cada construtor.
-
-### 🔁 Repetição em múltiplos construtores
-
-Quando a classe possui mais de um construtor:
-
-* Cada construtor precisa inicializar os mesmos dados
-* Isso gera duplicação de código
-* Pode causar inconsistência entre objetos criados de formas diferentes
-
-### 🚀 Solução: bloco de inicialização de instância
-
-O bloco de inicialização resolve esse problema centralizando a lógica.
-
-Exemplo:
+Exemplo de estrutura:
 
 ```java
     {
-        System.out.println("iniciando bloco de inicialização");
-        episodios = new int[100];
-        for (int i = 0; i < episodios.length; i++) {
-            episodios[i] = i + 1;
-        }
+        System.out.println("Bloco de inicialização executado");
     }
 ```
 
-Independentemente do construtor chamado, esse bloco sempre será executado.
+---
 
-### ⚠️ Ordem de execução
+### ⚙️ Problema
 
-A ordem de execução na criação de um objeto segue este fluxo:
+* Código de inicialização precisa ser repetido
+* Aumenta a duplicação
+* Pode gerar inconsistência
 
-* Alocação de memória para o objeto
-* Inicialização dos atributos com valores padrão ou definidos
-* Execução do bloco de inicialização
-* Execução do construtor
+---
 
-###  🧠 Importante
+### 🚀 Solução
 
-* O bloco de inicialização é executado antes do construtor
-* Ele é executado toda vez que um objeto é criado
-* Ele não depende do construtor chamado
-* Pode ser colocado em qualquer posição da classe (geralmente no início)
+Centralizar a lógica no bloco de inicialização:
+
+* Executado independentemente do construtor
+* Garante consistência entre objetos
+
+---
+
+#### ⚠️ Ordem de execução
+
+1. Alocação de memória
+2. Inicialização de atributos
+3. Bloco de inicialização
+4. Construtor
+
+---
+
+####🧠 Importante
+
+* Executado toda vez que um objeto é criado
+* Independente do construtor utilizado
+* Ideal para lógica comum entre construtores
+
+---
+
+#### Atributos `static`
+
+Atributos `static` pertencem à classe, não às instâncias.
+
+```java
+    public static double velocidadeLimite = 250;
+```
+
+---
+
+### ⚙️ Problema
+
+Sem `static`:
+
+*Cada objeto possui a sua própria cópia
+*Alterações afetam apenas um objeto
+
+---
+
+### 🚀 Solução
+
+Usar `static` para compartilhar o valor:
+
+```java
+    Carro.velocidadeLimite = 180;
+```
+
+---
+
+### 🔁 Comportamento
+
+* Uma única cópia em memória
+* Compartilhado por todos os objetos
+* Independente da quantidade de instâncias
+
+---
+
+#### ⚠️ Boa prática
+
+✔ Acessar via classe:
+
+```java
+    Carro.velocidadeLimite
+```
+
+❌ Evitar via instância:
+
+```java
+    c1.velocidadeLimite
+```
+
+---
+
+### 🧩 Métodos `static`
+
+Métodos `static` pertencem à classe e não dependem de objeto.
+
+```java
+    public static void setVelocidadeLimite(double valor) {
+        Carro.velocidadeLimite = valor;
+    }
+```
+
+---
+
+#### ⚠️ Regra fundamental
+
+Dentro de métodos estáticos:
+
+* ✔ Pode acessar atributos estáticos
+* ✔ Pode chamar métodos estáticos
+* ❌ Não pode usar `this`
+* ❌ Não pode acessar atributos de instância
+
+---
+
+#### 🧠 Justificativa
+
+* Método pode ser executado sem objeto
+* Logo, não existe instância garantida
+
+---
+
+#### Erro comum
+
+```java
+    this.velocidadeLimite // inválido
+```
+
+---
+
+#### Uso recomendado
+
+Utilizar métodos `static` quando:
+
+* Não dependem de estado do objeto
+* Representam comportamento global
+* São utilitários (ex: cálculos)
+
+---
+
+#### 🔍 Exemplo importante
+
+```java
+    public static void main(String[] args)
+```
+
+* Método de entrada da aplicação
+* Executado sem instância
+
+---
+
+#### 🧩 Blocos de inicialização static
+
+```java
+    static {
+        System.out.println("Executado uma vez");
+    }
+```
+
+---
+
+#### ⚙️ Problema
+
+Bloco de instância executando lógica repetida:
+
+* Desnecessário
+* Pode impactar performance
+
+---
+
+#### 🚀 Solução
+
+Mover lógica para bloco estático:
+
+* Executado apenas uma vez
+* Compartilhado por todos os objetos
+
+---
+
+#### 🔁 Comportamento
+
+* Executado ao carregar a classe
+* Antes de qualquer objeto existir
+
+---
+
+#### ⚠️ Ordem de execução completa
+
+1.Blocos de inicialização estáticos
+2.Atributos estáticos
+3.Carregamento da classe
+4.Alocação de memória do objeto
+5.Atributos de instância
+6.Bloco de inicialização
+7.Construtor
+
+---
+
+#### 🚫 Limitação
+
+Dentro de bloco estático:
+
+* ❌ Não pode acessar atributos de instância
+
+---
+
+#### 🔁 Múltiplos blocos
+
+* Permitidos
+* Executados uma única vez
+* Seguem a ordem do código
+
+---
+
+#### 🧠 Comparação geral
+
+| Elemento        | Pertence a | Execução           | Frequência       |
+|-----------------|------------|--------------------|------------------|
+| Atributo comum  | Objeto     | Ao criar objeto    | Múltiplas vezes  |
+| Atributo static | Classe     | Ao carregar classe | Uma vez          |
+| Bloco instância | Objeto     | Ao criar objeto    | Múltiplas vezes  |
+| Bloco static    | Classe     | Ao carregar classe | Uma vez          |
+| Método comum    | Objeto     | Via instância      | Depende          |
+| Método static   | Classe     | Sem instância      | Global           |
 
 ---
 
 ## 🚀 Resumo final
 
-* Blocos de inicialização executam automaticamente na criação de objetos
-* São executados antes dos construtores
-* Evitam duplicação de código entre construtores
-* São úteis para inicialização comum de atributos
-* A ordem de execução segue: memória → atributos → bloco → construtor
+* Blocos de inicialização evitam duplicação entre construtores
+* static transforma atributos em compartilhados
+* Métodos static não dependem de objeto
+* Blocos estáticos executam apenas uma vez
+* Contexto estático não acessa contexto de instância
+* Use static para comportamento e estado global
 
 ---

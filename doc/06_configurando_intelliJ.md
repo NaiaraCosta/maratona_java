@@ -148,8 +148,6 @@ Para criar uma classe:
 * Classes começam com letra maiúscula
 * Palavras compostas também seguem padrão PascalCase
 
----
-
 ### 💻 Estrutura básica de uma classe Java
 
 ```java
@@ -160,15 +158,13 @@ Para criar uma classe:
     }
 ```
 
-### 🧠 Explicação:
+#### 🧠 Explicação:
 
 * public class → define a classe
 * main → ponto de entrada da aplicação
 * System.out.println → imprime no console
 
----
-
-## 🚀 Execução do programa
+### 🚀 Execução do programa
 
 Você pode executar de duas formas:
 

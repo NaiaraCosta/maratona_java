@@ -60,7 +60,7 @@ Nunca executar com extensão:
 
 ## 📁 Fluxo completo de execução
 
-### 1\. Código fonte
+### 1. Código fonte
 
 ```java
     public class OlaDevDojo {    
@@ -70,13 +70,13 @@ Nunca executar com extensão:
     }
 ```
 
-### 2\. Compilação
+### 2. Compilação
 
 ```bash    
   javac OlaDevDojo.java  
 ```
 
-### 3\. Execução
+### 3. Execução
 
 ```bash
     java OlaDevDojo
@@ -111,17 +111,17 @@ Sempre que alterar o código:
 
 ## 🧠 Conceito importante
 
-* javac gera bytecode
-* JVM executa bytecode
-* Java não roda diretamente no sistema operacional
+* **javac** gera bytecode
+* **JVM** executa bytecode
+* **Java** não roda diretamente no sistema operacional
 
 ---
 
 ## 🚀 Resumo final
 
-* .java → código fonte
-* javac → gera .class
-* java → executa programa
-* JVM faz a ponte com o sistema operacional
+* `.java` → código fonte
+* `javac` → gera .class
+* `java` → executa programa
+* `JVM` → faz a ponte com o sistema operacional
 
 ---

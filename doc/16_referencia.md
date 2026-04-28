@@ -112,6 +112,7 @@ Exemplo inválido:
     Carro carro1 = new Carro();
     Professor p = carro1; // erro
 ```
+
 ### 🚫 Tipos incompatíveis
 
 Java não permite:

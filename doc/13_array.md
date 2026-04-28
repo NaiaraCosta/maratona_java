@@ -117,13 +117,13 @@ Exemplo conceitual:
 
 Quando um array é criado, seus valores são inicializados automaticamente:
 
-| Tipo             | Valor padrão |
-| ---------------- | ------------- |
-| int              | 0             |
-| float/double     | 0.0           |
-| char             | '\u0000' (vazio)              |
-| boolean          | false              |
-| String / objetos | null              |
+| Tipo             | Valor padrão     |
+|------------------|------------------|
+| int              | 0                |
+| float/double     | 0.0              |
+| char             | '\u0000' (vazio) |
+| boolean          | false            |
+| String / objetos | null             |
 
 ### 🧱 Arrays Multidimensionais
 
@@ -226,7 +226,9 @@ int[][] matriz = new int[3][];
 * Cada posição aponta para um array diferente
 * Estrutura pode ter tamanhos diferentes
 
-### 🚨 Erros comuns
+---
+
+## 🚨 Erros comuns
 
 * ❌ Índice inválido → ArrayIndexOutOfBoundsException
 * ❌ Referência nula → NullPointerException

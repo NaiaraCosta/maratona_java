@@ -1,4 +1,4 @@
- # 📘 Guia Completo — Palavras Reservadas (Keywords) em Java
+# 📘 Guia Completo — Palavras Reservadas (Keywords) em Java
 
 Este guia apresenta o conceito de **keywords (palavras reservadas)** no Java, sua função na linguagem e como elas estruturam o comportamento do compilador.
 
@@ -45,8 +45,6 @@ Elas controlam:
 
 ## 🔢 Categorias de Keywords
 
----
-
 ### 🔢 Tipos de dados primitivos
 
 * `boolean`
@@ -58,8 +56,6 @@ Elas controlam:
 * `long`
 * `short`
 * `void`
-
----
 
 ### 🔄 Controle de fluxo
 
@@ -75,15 +71,11 @@ Elas controlam:
 * `continue`
 * `return`
 
----
-
 ### 🔐 Modificadores de acesso
 
 * `public`
 * `private`
 * `protected`
-
----
 
 ### ⚙️ Modificadores gerais
 
@@ -95,14 +87,10 @@ Elas controlam:
 * `native`
 * `strictfp`
 
----
-
 ### 📦 Pacotes e importação
 
 * `package`
 * `import`
-
----
 
 ### 🚨 Tratamento de exceções
 
@@ -111,8 +99,6 @@ Elas controlam:
 * `finally`
 * `throw`
 * `throws`
-
----
 
 ### 🧱 Orientação a objetos
 
@@ -126,8 +112,6 @@ Elas controlam:
 * `super`
 * `instanceof`
 
----
-
 ### 🆕 Recursos modernos
 
 * `var`
@@ -135,8 +119,6 @@ Elas controlam:
 * `sealed`
 * `permits`
 * `module`
-
----
 
 ### 🚫 Keywords reservadas não utilizadas
 

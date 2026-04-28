@@ -257,11 +257,11 @@ VarArgs permite passar vários valores sem criar array manualmente.
 
 ### 🧠 Diferença: Array vs VarArgs
 
-| Array                    | VarArgs                |
-|--------------------------| ---------------------- |
-| Precisa ser criado antes | Pode passar direto     |
+| Array                    | VarArgs               |
+|--------------------------|-----------------------|
+| Precisa ser criado antes | Pode passar direto    |
 | Sintaxe mais rígida      | Sintaxe mais flexível |
-| int[]                    | int... |
+| int[]                    | int...                |
 
 ### 🧠 Controle de execução em métodos
 

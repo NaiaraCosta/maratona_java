@@ -35,7 +35,7 @@ São usados para:
 
 ## ✏️ Tipos de Comentários em Java
 
-## 📌 Comentário de uma linha
+### 📌 Comentário de uma linha
 
 Usa `//`
 
@@ -45,7 +45,7 @@ Usa `//`
     System.out.println("Olá");
 ```
 
-## 📌 Comentário de múltiplas linhas
+### 📌 Comentário de múltiplas linhas
 
 ```java
     /*Isso é um comentário
@@ -54,7 +54,7 @@ Usa `//`
     System.out.println("Olá");
 ```
 
-### Características:
+#### Características:
 
 * Permite várias linhas de comentário
 * Tudo entre /* e */ é ignorado
@@ -62,7 +62,7 @@ Usa `//`
 * Não deve ser usado de forma desorganizada
 
 
-## 📌 JavaDoc (comentário oficial)
+### 📌 JavaDoc (comentário oficial)
 
 Usa /** ... */
 
@@ -72,14 +72,14 @@ Usa /** ... */
     */
 ```  
 
-### Características:
+#### Características:
 
 * Comentário oficial do Java
 * Usado para documentar classes e métodos
 * Pode gerar documentação automática
 * Suporta formatação e HTML
 
-### 📘 Exemplo de JavaDoc com descrição
+#### 📘 Exemplo de JavaDoc com descrição
 
 ```java
     /**
@@ -89,7 +89,7 @@ Usa /** ... */
     }
 ```   
 
-### 📚 JavaDoc em Métodos
+#### 📚 JavaDoc em Métodos
 
 ```java
     /**
@@ -102,14 +102,14 @@ Usa /** ... */
     }
 ```
 
-### 🧠 Como visualizar JavaDoc
+#### 🧠 Como visualizar JavaDoc
 
 No IntelliJ IDEA:
 
 * Ctrl + Q → mostra documentação do método
 * Ctrl + Click → navega para implementação
 
-### ⚙️ Por que o JavaDoc é importante
+#### ⚙️ Por que o JavaDoc é importante
 
 O JavaDoc é usado para:
 
