@@ -145,7 +145,7 @@ Exemplo:
 
 ---
 
-### 🚀 Síntese Final ✅🧠
+## 🚀 Síntese Final ✅🧠
 
 - **Classes abstratas não podem ser instanciadas**
 - **Representam conceitos genéricos**

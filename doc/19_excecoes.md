@@ -307,7 +307,7 @@ Exemplo:
 
 ---
 
-### 🚀 Síntese Final ✅🧠
+## 🚀 Síntese Final ✅🧠
 
 - **Error não se trata**
 - `RuntimeException` **→ erro de código**

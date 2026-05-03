@@ -206,7 +206,7 @@ Exemplo:
 
 --- 
 
-### 🚀 Síntese Final ✅🧠
+## 🚀 Síntese Final ✅🧠
 
 - `arrays` **são objetos**
 - Variáveis de array são **tipos reference**

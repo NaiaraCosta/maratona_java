@@ -139,7 +139,7 @@ Tipos inválidos geram exceção
 
 ---
 
-### 🚀 Síntese Final ✅🧠
+## 🚀 Síntese Final ✅🧠
 
 - **Associação** conecta **objetos em memória**
 - **Arrays** guardam **referências**, não dados

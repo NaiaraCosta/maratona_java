@@ -191,7 +191,7 @@ Exemplo com **Repositorio**:
 
 ---
 
-### 🚀 Síntese Final ✅🧠
+## 🚀 Síntese Final ✅🧠
 
 - **Polimorfismo** = **múltiplas formas**
 - Baseado em `herança` e `interface`

@@ -31,7 +31,6 @@ Compreender os conceitos abaixo
 - O valor original **nunca é modificado**
 
 Exemplo:
-
 ```java
     String nome = "William";
     nome.concat(" Suane"); // não altera a variável
@@ -41,7 +40,6 @@ Exemplo:
 ✅ Forma correta:
 
 Exemplo:
-
 ```java
     nome = nome.concat(" Suane");
 ```
@@ -55,7 +53,6 @@ Exemplo:
 - Evita duplicação de objetos iguais
 
 Exemplo:
-
 ```java
     String s1 = "William";
     String s2 = "William";
@@ -74,7 +71,6 @@ Exemplo:
 📌 Boa prática:
 
 Exemplo:
-
 ```java
     s1.equals(s2); // comparação correta de valor
 ```
@@ -86,7 +82,6 @@ Use `==` **apenas** quando quiser validar **referência em memória**.
 ### 🆕 new String(...) e o Heap
 
 Exemplo:
-
 ```java
     String s1 = "William";
     String s2 = new String("William");
@@ -101,7 +96,6 @@ Exemplo:
 #### 🔑 intern()
 
 Exemplo:
-
 ```java
     s2 = s2.intern();
 ```
@@ -132,7 +126,6 @@ Exemplo:
 Concatenação em loop:
 
 Exemplo:
-
 ```java
     texto += i;
 ```
@@ -160,7 +153,6 @@ Exemplo:
 - Métodos alteram o objeto **internamente**
 
 Exemplo:
-
 ```java
     StringBuilder sb = new StringBuilder();
     sb.append("William");
@@ -204,7 +196,7 @@ Exemplo:
 
 ---
 
-### 🚀 Síntese Final ✅🧠
+## 🚀 Síntese Final ✅🧠
 
 - `String` é **imutável**
 - Literais usam o `String Pool`
