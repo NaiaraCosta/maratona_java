@@ -191,6 +191,7 @@ Utilizado em conjunto com **`Files.walkFileTree`** para percorrer diretórios de
 
 Utiliza padrões `glob:` ou `regex:` para **comparação de caminhos** de forma declarativa.
 
+Exemplo:
 ```java
     PathMatcher matcher = FileSystems.getDefault()
     .getPathMatcher("glob:**/*.{java,class}");
@@ -212,6 +213,7 @@ Permite a **criação manual** de arquivos `.zip` usando streams.
 3. Copiar conteúdo com `Files.copy`
 4. Finalizar com `closeEntry`
 
+Exemplo:
 ```java
     zip.putNextEntry(new ZipEntry(file.getFileName().toString()));
     Files.copy(file, zip);
