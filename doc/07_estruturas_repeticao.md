@@ -2,13 +2,25 @@
 
 Documento técnico introdutório sobre **laços de repetição em `Java`**, explicando funcionamento, sintaxe, armadilhas comuns e exercícios práticos aplicados ao dia a dia de desenvolvimento.
 
+As estruturas de repetição são fundamentais para automatizar tarefas repetitivas, percorrer coleções de dados e implementar algoritmos de forma eficiente e controlada.
+
 ---
 
 ## 🧠 Resumo Contextualizado 🤯📌
 
-💡 **Estruturas de repetição** permitem que um mesmo bloco de código seja executado diversas vezes **enquanto uma condição for satisfeita**.  
-Em `Java`, os principais laços são `while`, `do while` e `for`, além dos comandos de controle `break` e `continue`.  
-Todos dependem de **expressões booleanas (`boolean`)** e exigem atenção especial à **alteração do estado das variáveis**, evitando loops infinitos.
+💡 **Estruturas de repetição** permitem que um mesmo bloco de código seja executado diversas vezes **enquanto uma condição for satisfeita**.
+
+Em `Java`, os principais laços são:
+- `while`
+- `do while`
+- `for`
+
+Além disso, existem comandos auxiliares que controlam o fluxo interno desses laços:
+- `break`
+- `continue`
+
+Todos os laços dependem de **expressões booleanas (`boolean`)**, ou seja, condições que resultam em `true` ou `false`.  
+Outro ponto crítico é a **alteração do estado das variáveis de controle**, pois sem essa mudança a condição pode nunca se tornar falsa, gerando **loops infinitos**.
 
 ---
 
@@ -18,94 +30,194 @@ Todos dependem de **expressões booleanas (`boolean`)** e exigem atenção espec
 
 ### 🔁 `while` — Laço com condição prévia
 
-- Executa **somente se a condição for `true`**.
-- A condição deve resultar em um `boolean`.
-- **Risco comum**: esquecer de alterar a variável de controle ➜ loop infinito.
+O laço `while` executa um bloco de código **enquanto a condição for verdadeira**.
+
+Características principais:
+- A condição é avaliada **antes** da execução do bloco
+- A condição deve resultar em um `boolean`
+- Se a condição iniciar como `false`, o bloco **não executa nenhuma vez**
+
+Sintaxe geral:
+```java
+    while (condicao) {
+        // bloco de código
+    }
+```
+
+📌 Funcionamento conceitual:
+
+- Uma variável de controle é inicializada antes do laço
+- A condição testa essa variável
+- Dentro do bloco, a variável é modificada para evitar loop infinito
 
 **Exemplo conceitual:**
+
 - Contador inicia em `0`
-- Condição: `count < 10`
+- Condição: count < `10`
 - Incremento obrigatório dentro do bloco (`count++` ou `count += 1`)
 
-✅ Se a condição iniciar como `false`, o bloco **não executa nenhuma vez**.
+Exemplo:
+```java
+    while (condicao) {
+        // bloco de código
+    }
+```
+
+⚠️ **Risco comum**
+
+Esquecer de alterar a variável de controle ➜ loop infinito
 
 ---
 
-### 🔂 `do while` — Execução garantida
+### 🔂 do while — Execução garantida
 
-- Executa o bloco **pelo menos uma vez**, **independente da condição**.
-- A condição só é verificada **após** a primeira execução.
+O laço `do while` é semelhante ao `while`, porém com uma diferença essencial:
+o bloco de código é executado **pelo menos uma vez, independente da condição inicial**.
 
-✅ Útil em cenários raros onde **uma execução inicial é obrigatória**, mesmo com condição falsa.  
-⚠️ Uso menos comum no mercado.
+Características:
 
----
+A condição é avaliada após a execução do bloco
+Garantia de ao menos uma execução
 
-### 🔢 `for` — Laço indexado
+Sintaxe geral:
+```java
+    do {
+        // bloco de código
+    } while (condicao);
+```
 
-- Ideal para **contagens**, **listas**, **arrays** e **coleções**.
-- Estrutura composta por **3 partes**:
-  1. Inicialização (ex: `int i = 0`)
-  2. Condição (ex: `i < 10`)
-  3. Incremento/decremento (ex: `i++` ou `i--`)
+Exemplo:
+```java
+    int tentativa = 1;
 
-📌 Normalmente usa-se `i`, `j`, `k` como índices por convenção.
+    do {
+        System.out.println("Tentativa: " + tentativa);
+        tentativa++;
+    } while (tentativa <= 3);
+```
 
-✅ O `for` concentra **declaração, condição e evolução** em um único ponto ➜ maior legibilidade.
+✅ Útil em cenários específicos onde **uma execução inicial é obrigatória**, como:
 
----
+- Exibição de menus
+- Leitura inicial de entrada do usuário
 
-### 🧮 Exercício — Números pares até 1.000.000
-
-**Estratégias possíveis:**
-- Incrementar de `2` em `2`
-- Usar operador de resto (`%`)
-
-✅ Solução mais robusta:
-- Verificar `i % 2 == 0`
-- Mantém o código **flexível** caso a regra de negócio mude (ex: começar em `1`)
-
-💡 **Boa prática:** pensar sempre em **mudanças futuras de requisitos**.
+⚠️ Uso menos comum no mercado, mas importante para compreensão completa do controle de fluxo.
 
 ---
 
-### ⛔ `break` — Interrupção imediata
+### 🔢 for — Laço indexado
 
-- Encerra **totalmente** o laço (`for`, `while`, `do while`)
-- Também funciona em `switch`
-- **Não encerra apenas o `if`**, mas o laço externo
+O laço `for` é o mais utilizado em Java, especialmente para:
+
+- Contagens
+- Percorrimento de `arrays`
+- Iteração sobre listas e coleções
+
+Sua principal vantagem é concentrar **toda a lógica de controle em um único ponto**.
+
+Estrutura composta por **3 partes**:
+
+1. Inicialização (executada uma única vez)
+2. Condição (avaliada antes de cada iteração)
+3. Incremento ou decremento (executado ao final de cada iteração)
+
+Sintaxe geral:
+```java
+    for (inicializacao; condicao; incremento) {
+        // bloco de código
+    }
+```
+
+Exemplo:
+```java
+    for (int i = 0; i < 10; i++) {
+        System.out.println(i);
+    }
+```
+
+📌 Por convenção, utilizam-se:
+
+- i, j, k como variáveis de índice em laços simples
+
+✅ O `for` melhora a legibilidade ao deixar explícito:
+
+- Onde começa
+- Onde termina
+- Como evolui a repetição
+
+---
+
+### ⛔ break — Interrupção imediata
+
+O comando `break` interrompe **imediatamente** a execução do laço em que se encontra.
+
+Características:
+
+- Encerra `for`, `while` e `do while`
+- Também é utilizado em `switch`
+- Não encerra apenas o `if`, mas sim o laço externo
+
+Exemplo:
+```java
+    for (int i = 1; i <= 50; i++) {
+        if (i > 25) {
+        break;
+        }
+        System.out.println(i);
+    }
+```
 
 ✅ Ideal para:
-- Parar processamento quando o objetivo já foi atingido
-- Evitar desperdício de recursos
 
-📍 Exemplo: imprimir somente os **25 primeiros números**, mesmo que o laço vá até `50`.
+- Parar o processamento ao atingir um objetivo
+- Economizar recursos computacionais
+- Evitar execuções desnecessárias
+
+📍 No exemplo acima, o laço poderia ir até 50, mas é interrompido ao chegar em 25.
 
 ---
 
-### 🔁 `continue` — Pular iteração
+### 🔁 continue — Pular iteração
 
-- **Ignora o restante da iteração atual**
-- Retorna para o início do laço
-- O laço **continua executando**
+O comando continue não encerra o laço, apenas:
+
+Ignora o restante do código da **iteração atual**
+Retorna imediatamente para a próxima iteração
+
+Exemplo:
+```java
+    for (int i = 1; i <= 10; i++) {
+        if (i % 2 != 0) {
+            continue;
+        }
+        System.out.println(i);
+    }
+```
+
+Nesse caso:
+
+Números ímpares são ignorados
+Apenas os pares são impressos
 
 ✅ Útil quando:
-- Parte do processamento deve ser ignorada em certas condições
-- Evita execuções pesadas desnecessárias (ex: `I/O`, chamadas externas)
 
-📌 Muito usado para **filtros dentro de loops grandes**.
+Parte do processamento deve ser ignorada sob certas condições
+Existem operações custosas que não devem rodar sempre
+
+📌 Muito comum para **filtros dentro de loops grandes**.
 
 ---
 
 ## 🚀 Síntese Final ✅🧠
 
-- **`while`** executa enquanto a condição for `true`
-- **`do while`** executa pelo menos uma vez
-- **`for`** é ideal para contagens e índices
-- **`break`** interrompe completamente o laço
-- **`continue`** pula apenas a iteração atual
-- Loops exigem **controle de estado** para evitar execução infinita
+- `while` executa enquanto a condição for true
+- `do while` executa pelo menos uma vez
+- `for` é ideal para contagens e índices
+- `break` interrompe completamente o laço
+- `continue pula apenas a iteração atual
+- Todos os loops exigem **controle explícito de estado**
+- Falhas nesse controle causam **loops infinitos**
 - Pensar em **regras de negócio futuras** gera código mais sustentável
-- Uso correto de `break` e `continue` melhora **performance e clareza**
+- Uso consciente de `break` e continue melhora **performance, clareza e legibilidade**
 
 ---
